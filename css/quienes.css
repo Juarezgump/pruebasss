@@ -1,0 +1,238 @@
+body{
+    background-image: url(/imagenes/fondo1.jpg); /*Imagen de fondo*/
+    background-position: center; /*Posición de la imagen de fondo*/
+    background-size: auto; /*Tamaño de la imagen de fondo*/
+    background-color: rgb(236, 210, 210); /*Color de fondo*/
+    background-repeat: no-repeat; /*No se repite la imagen de fondo*/
+    background-attachment: fixed; /*Fondo fijo*/
+}
+
+
+*{
+    margin: 0; /*Margen de 0*/
+    padding: 0; /*Padding de 0*/
+    font-family: Arial, Helvetica, sans-serif; /*Tipo de letra*/
+    text-align: center; /*Texto centrado*/
+}
+
+
+header {
+    width: 100%; /*Ancho del contenedor*/
+    background-color: #dd254d; /*Color de fondo*/
+    height: 100px; /*Altura del contenedor*/
+    display: block; /*Bloque de display*/
+    
+} 
+
+.contenedor1{
+    width: 600px; /*Ancho del contenedor*/
+    margin: 0 auto; /*Margen de 0 automático*/
+    padding: 20px 0; /*Padding del contenedor*/
+    }
+    .contenedor1 h1{
+        font-size: 50px; /*Tamaño de letra*/
+        color: rgb(19, 18, 18); /*Color de letra*/
+        text-shadow: 10px 10px 10px black; /*Sombra de texto*/
+    }
+
+ .contenedor2{
+      width: 1200px; /*Ancho del contenedor*/
+     padding: 20px 0; /*Padding del contenedor*/
+}
+
+.contenedor3{
+    width: 1200px; /*Ancho del contenedor*/
+    padding: 20px 0; /*Padding del contenedor*/
+    margin-left:290px; /*Margen izquierdo*/
+    
+ }
+
+ .contenedor4{
+    width: 1200px; /*Ancho del contenedor*/
+    padding: 20px 0; /*Padding del contenedor*/
+    margin: 0 auto; /*Margen de 0 automático*/
+ }
+
+
+.titulo1{
+    font-size: 50px; /*Tamaño de letra*/
+    color: rgb(13, 3, 3); /*Color de letra*/
+    text-shadow: 10px 10px 10px black; /*Sombra de texto*/
+}
+
+
+.clearfix {
+    clear: both; /*Limpiar ambos*/
+    float: none; /*Flotar ninguno*/
+}
+
+
+
+header img{
+    float: left; /*Flotar a la izquierda*/
+    height: 80px; /*Altura del contenedor*/
+    width: auto; /*Ancho del contenedor*/
+    display: block; /*Mostrar como bloque*/ 
+}
+
+nav {
+    float: inherit; /*Flotar a la izquierda*/
+}
+
+nav a {
+    padding: 10px 20px; /*Padding del botón*/
+    color: azure; /*Color de letra*/
+    text-decoration: none; /*Sin decoración de texto*/
+    line-height: 60px;  /*Altura de línea*/
+    font-weight: bold;  /*Grosor de letra*/
+    border-radius: 5px; /*Bordes redondeados*/
+    transition: all 1s; /*Transición de 1 segundo*/
+}
+
+nav a:hover{
+    background-color: azure; /*Color de fondo*/
+    color: #F7CFD8; /*Color de letra*/
+}
+
+
+.descripcionVet{
+    width: 100%; /*Ancho del contenedor*/
+    font-size: 40px; /*Tamaño de letra*/
+    background: rgb(238, 238, 238, 0.5); /*Color de fondo*/
+    padding: 100px 0; /*Padding del contenedor*/
+    text-align: center; /*Texto centrado*/
+    border-radius: 100px 0 100px 0; /*Bordes redondeados*/
+}
+
+.descripcionVet h1{
+    line-height: 70px; /*Altura de línea*/
+} 
+.descripcionVet h3{
+    line-height: 50px; /*Altura de línea*/
+}
+
+.descripcionVet p{
+    line-height: 40px; /*Altura de línea*/
+    font-size: 30px; /*Tamaño de letra*/
+    
+}
+
+#titulomayor1{
+    font-size: 50px; /*Tamaño de letra*/
+    font-style: italic; /*Estilo de letra*/
+    color: rgb(7, 5, 5); /*Color de letra*/
+    text-shadow: 10px 10px 10px black; /*Sombra de texto*/
+    width: 900px; /*Ancho del contenedor*/
+    list-style: none; /*Sin estilo de lista*/
+    margin: 0 auto; /*Margen de 0 automático*/
+    padding: 20px 0; /*Padding del contenedor*/
+    flex-wrap: wrap; /*Envoltura flexible*/
+    gap: 20px; /*Espacio entre contenedores*/
+    background: rgb(238, 238, 238, 0.5);    /*Color de fondo*/
+    border-radius: 100px 100px 100px 100px; /*Bordes redondeados*/
+    box-shadow: 02px 0px 10px rgb(207, 2, 2); /*Sombra del contenedor*/
+}
+
+.vet{
+    width: 980px; /*Ancho del contenedor*/
+    list-style: none; /*Sin estilo de lista*/
+    margin: 0 auto; /*Margen de 0 automático*/
+    padding: 20px 0;  /*Padding del contenedor*/
+    display: flex; /*Mostrar como flex*/
+    flex-wrap: wrap; /*Envoltura flexible*/
+    justify-content: center; /*Justificar contenido*/
+    gap: 20px; /*Espacio entre contenedores*/
+    background: rgb(238, 238, 238, 0.5); /*Color de fondo*/
+    border-radius: 100px 0 100px 0; /*Bordes redondeados*/ 
+    box-shadow: 02px 0px 10px rgb(207, 2, 2);  
+}
+
+
+.vet li{
+    float:inherit; /*Flotar a la izquierda*/
+    width: 560px; /*Ancho del contenedor*/
+    height: 300px; /*Altura del contenedor*/
+    text-align: center; /*Texto centrado*/
+    background-color: rgb(169, 53, 94, 0.5);   /*Color de fondo*/
+    color: white; /*Color de letra*/
+    margin: 20px;  /*Margen del contenedor*/
+    border-radius: 5px; /*Bordes redondeados*/
+
+}
+
+
+.vet li img{
+    height: 230px; /*Altura del contenedor*/
+    margin: 20px auto; /*Margen del contenedor*/
+    display: block; /*Mostrar como bloque*/
+}
+#titulomayor{
+    margin: 50px 0 0 0; /*Margen del contenedor*/
+    font-size: 30px; /*Tamaño de letra*/
+    font-style: italic; /*Estilo de letra*/
+    color: white; /*Color de letra*/
+    font-weight: bolder; /*Grosor de letra*/ 
+    text-shadow: 10px 10px 10px black;  /*Sombra de texto*/
+}
+
+.contenedor5{
+    width: 1200px; /*Ancho del contenedor*/
+    padding: 20px 0; /*Padding del contenedor*/
+    margin: 0 auto; /*Margen de 0 automático*/
+}
+
+#des-veti {
+    margin: 50px 0 0 0; /*Margen del contenedor*/
+    font-size: 20px; /*Tamaño de letra*/
+    font-weight: bolder; /*Grosor de letra*/
+    width: 100%; /*Ancho del contenedor*/ 
+    background: rgb(238, 238, 238, 0.5); /*Color de fondo*/
+    padding: 40px 0; /*Padding del contenedor*/ 
+}
+
+footer{
+    width: 100%; /*Ancho del contenedor*/
+    background: rgb(238, 238, 238, 0.5); /*Color de fondo*/
+    padding: 40px 0; /*Padding del contenedor*/
+    text-align: center; /*Texto centrado*/
+    font-size: x-large; /*Tamaño de letra*/
+}
+
+.ul {
+    display: flex;  /*Mostrar el contenedor como flex*/
+    justify-content: center;  /*Justificar el contenido*/
+    gap: 20px; /*Espacio entre los elementos*/
+    margin: 0; /*Margen de 0*/
+    padding: 0; /*Padding de 0*/
+    list-style: none;  /*Sin estilo de lista*/
+}
+
+.li {
+    display: flex; /*Mostrar el contenedor como flex*/
+    align-items: center; /*Alinear los elementos*/
+}
+
+.icono {
+    width: 50px; /*Ancho del contenedor*/
+    height: 50px; /*Altura del contenedor*/
+    object-fit: contain; /*Ajustar el tamaño del contenedor*/
+}
+
+a {
+    text-decoration: none; /*Sin decoración de texto*/
+    font-size: 18px; /*Tamaño de letra*/
+    color: #080303; /*Color de letra*/
+    font-weight: bold; /*Grosor de letra*/
+}
+
+.contenedor12 {
+    display:flex; /*Mostrar el contenedor como flex*/
+    flex-direction: column; /*Dirección de la columna*/
+    text-align: center; /*Texto centrado*/
+    margin: 0;  /*Margen de 0*/
+    padding: 0; /*Padding de 0*/
+}
+
+
+
+

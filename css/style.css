@@ -1,0 +1,194 @@
+body{
+    background-image: url(/imagenes/fondo1.jpg);  /*Imagen de fondo*/
+    background-position: center; /*Posición de la imagen de fondo*/
+    background-size: auto; /*Tamaño de la imagen de fondo*/
+    background-color: rgb(236, 210, 210); /*Color de fondo*/
+    background-repeat: no-repeat; /*No se repite la imagen de fondo*/
+    background-attachment: fixed; /*Fondo fijo*/
+}
+
+
+*{
+    margin: 0; /*Margen de 0*/
+    padding: 0;  /*Padding de 0*/
+    font-family: Arial, Helvetica, sans-serif;/*Tipo de letra*/ 
+    text-align: center; /*Texto centrado*/ 
+}
+
+
+header {
+    width: 100%;   /*Ancho del header*/
+    background-color: #dd254d;  /*Color de fondo del header*/
+    height: 100px;  /*Altura del header*/
+    display: block; /*Bloque de display*/
+    
+} 
+
+.contenedor1{
+width: 1200px; /*Ancho del contenedor*/
+margin: 0 auto;  /*Margen de 0 auto*/
+padding: 20px 0; /*Padding de 20px 0*/ 
+}
+
+.titulo1{  
+    font-size: 50px; /*Tamaño de la letra*/
+    color: rgb(13, 3, 3);  /*Color de la letra*/
+    text-shadow: 10px 10px 10px black; /*Sombra del texto*/
+}
+
+
+.clearfix {
+    clear: both; /*Limpiar ambos*/
+    float: none; /*No flotar*/
+}
+
+
+
+header img{
+    float: left; /*Flotar a la izquierda*/
+    height: 80px; /*Altura de la imagen*/
+    width: auto; /*Ancho automático*/
+    display: block; /*Bloque de display*/
+}
+
+nav {
+    float: inherit; /*No flotar*/
+}
+
+nav a {
+    padding: 10px 20px; /*Padding de 10px 20px*/
+    color: azure;   /*Color de la letra*/
+    text-decoration: none; /*Sin decoración de texto*/
+    line-height: 60px; /*Altura de línea de 60px*/
+    font-weight: bold; /*Negrita*/
+    border-radius: 5px; /*Radio de borde de 5px*/
+    transition: all 1s; /*Transición de 1s*/
+}
+
+nav a:hover{
+    background-color: azure; /*Color de fondo al pasar el cursor*/
+    color: #F7CFD8; /*Color de la letra al pasar el cursor*/
+}
+
+.doctora {
+    border-radius: 100px 0 100px 0; /*Radio de borde de 100px 0 100px 0*/
+    box-shadow: 02px 0px 10px rgb(207, 2, 2); /*Sombra de caja de 02px 0px 10px rgb(207, 2, 2)*/ 
+}
+
+.descripcionVet{
+    width: 100%;  /*Ancho del 100%*/
+    font-size: 40px;  /*Tamaño de la letra*/
+    background: rgb(238, 238, 238, 0.5);  /*Color de fondo*/
+    padding: 100px 0; /*Padding de 100px 0*/
+    text-align: center; /*Texto centrado*/
+    border-radius: 100px 0 100px 0; /*Radio de borde de 100px 0 100px 0*/
+}
+
+.descripcionVet h1{
+    line-height: 70px; /*Altura de línea de 70px*/
+}
+.descripcionVet h3{
+    line-height: 50px; /*Altura de línea de 50px*/
+}
+
+.descripcionVet p{
+    line-height: 40px; /*Altura de línea de 40px*/
+    font-size: 30px; /*Tamaño de la letra*/
+    
+}
+
+.servicios{
+    width: 980px; /*Ancho de 980px*/
+    list-style: none; /*Sin estilo de lista*/
+    margin: 0 auto; /*Margen de 0 auto*/
+}
+
+.servicios li{
+    float: left; /*Flotar a la izquierda*/
+    width: 200px; /*Ancho de 200px*/
+    height: 200px; /*Altura de 200px*/
+    text-align: center; /*Texto centrado*/
+    background-color: #A6F1E0; /*Color de fondo*/
+    color: white; /*Color de la letra*/
+    margin: 20px; /*Margen de 20px*/
+    border-radius: 5px; /*Radio de borde de 5px*/
+}
+
+.servicios li img{
+    height: 70px; /*Altura de 70px*/
+    width: auto; /*Ancho automático*/
+    margin: 20px auto; /*Margen de 20px auto*/
+    display: block; /*Bloque de display*/ 
+} 
+#titulomayor{
+    margin: 50px 0 0 0;   /*Margen de 50px 0 0 0*/    
+    font-size: 30px;     /*Tamaño de letra de 30px*/
+    font-style: italic; /*Estilo de letra cursiva*/
+    color: white;    /*Color de letra*/
+    font-weight: bolder; /*Grosor de letra*/
+    text-shadow: 10px 10px 10px black; /*Sombra de texto*/
+}
+
+#titulomayor1{ 
+    margin: 50px 0 0 0; /* Margen superior de 50px, 0 en los otros lados */
+    font-size: 30px;  /* Tamaño de letra de 30px */
+    font-style: italic; /* Estilo de letra cursiva */
+    color: rgb(7, 5, 5); /* Color de letra */
+    font-weight: bolder; /* Grosor de letra */ 
+    text-shadow: 10px 10px 10px black; /* Sombra de texto */
+}
+
+#des-veti {
+    margin: 50px 0 0 0; /* Margen superior de 50px, 0 en los otros lados */
+    font-size: 20px; /* Tamaño de letra de 20px */
+    font-weight: bolder; /* Grosor de letra */
+    width: 100%; /* Ancho del 100% */
+    background: rgb(238, 238, 238, 0.5); /* Color de fondo */
+    padding: 40px 0; /* Padding de 40px 0 */
+} 
+
+footer{
+    width: 100%;
+    background: rgb(238, 238, 238, 0.5); /* Color de fondo */
+    padding: 40px 0; /* Padding de 40px 0 */
+    text-align: center; /* Texto centrado */ 
+    font-size: x-large; /* Tamaño de letra */
+}
+
+.ul {
+    display: flex;  /* Mostrar el contenedor como flex */
+    justify-content: center;  /* Justificar el contenido */
+    gap: 20px; /* Espacio entre los elementos */
+    margin: 0; /* Margen de 0 */
+    padding: 0;  /* Padding de 0 */
+    list-style: none;  /* Sin estilo de lista */
+}
+
+.li {
+    display: flex; /* Mostrar el contenedor como flex */
+    align-items: center; /* Alinear los elementos */
+}
+
+.icono {
+    width: 50px; /* Ancho del contenedor */
+    height: 50px;   /* Altura del contenedor */
+    object-fit: contain; /* Ajustar el tamaño del contenedor */
+}
+
+a {
+    text-decoration: none; /* Sin decoración de texto */
+    font-size: 18px; /* Tamaño de letra */
+    color: #080303; /* Color de letra */
+    font-weight: bold; /* Grosor de letra */
+}
+
+.contenedor12 {
+    display:flex; /* Mostrar el contenedor como flex */
+    flex-direction: column; /* Dirección de la columna */
+    text-align: center; /* Texto centrado */
+    margin: 0; /* Margen de 0 */
+    padding: 0; /* Padding de 0 */
+}
+
+
+

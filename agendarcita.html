@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veterinaria Chow-Chow</title>
+    <link rel="stylesheet" href="/css/agendarcita.css"> <!--Referencia para el CSS-->
+</head>
+
+<body> <!--Cuerpo de la pagina web-->
+    <header> <!--Encabezado-->
+        <div class="contenedor"> <!--Contenedor con el identificador class, para el menu de los botones-->
+            <img src="/imagenes/logo1.webp" alt="logo"> <!--Logo de la Veterinaria-->
+            <nav> <!--Representa la seccion de los elementos de navegacion para ir a otras paginas de la veterinaria-->
+                <a href="/index.html">Inicio</a> <!--Redireccion hacia la pagina principal-->
+                <a href="#contactanos">Contactanos</a> <!--Redireccion hacia el footer donde se encuentran los enlaces de las redes sociales-->
+                <a href="/historia.html">Historia</a> <!--Redireccion hacia la pagina que contiene la historia de la veterinaria-->
+                <a href="/agendarcita.html">Agendar Cita</a> <!--Redireccion hacia la pagina que contiene el formulario para agendar cita--> 
+                <a href="/productos.html">Productos</a> <!--Redireccion hacia la pagina de productos de la veterinaria-->
+                <a href="/quienes.html">Quienes somos</a> <!--Redireccion hacia la pagina que contiene la mision, vision de la veterinaria-->
+            </nav>
+            <div class="clearfix"></div>  <!--Contenedor con el identificador Clearfix es utilizado para borrar elementos secundarios flotantes de su elemento padre-->
+        </div>
+    </header>
+
+<section class="descripcionVet"> <!--Etiqueta de seccion con el identificador class, para el contenedor de bienvenida-->
+    <form> <!--Formulario para agendar una cita-->
+        <h1>Agenda una Cita</h1> <!--Titulo-->
+        <div class="form-group"> <!--Etiqueta para el grupo de elementos del formulario-->
+            <label for="nombre" id="label">Nombre:</label> <!--Etiqueta para el nombre-->
+            <input type="text" id="input" name="nombre" placeholder="Introduce tu nombre" required> <!--Campo de texto para ingresar el nombre-->
+        </div>
+        <div class="form-group"> <!--Etiqueta para el grupo de elementos del formulario-->
+            <label for="email" id="label">Correo Electrónico:</label> <!--Etiqueta para el correo electronico-->
+            <input type="email" id="input" name="email" placeholder="Introduce tu correo" required> <!--Campo de texto para ingresar el correo electronico-->
+        </div>
+        <div class="form-group">
+            <label for="fecha" id="label">Fecha de la Cita:</label> <!--Etiqueta para la fecha de la cita-->
+            <input type="date" id="input" name="fecha" required> <!--Campo de texto para ingresar la fecha de la cita-->
+        </div>
+        <div class="form-group"> <!--Etiqueta para el grupo de elementos del formulario-->
+            <label for="numero" id="label">Telefono</label> <!--Etiqueta para el telefono-->
+            <input type="numero" id="input" name="Telefono" placeholder="Telefono" required> <!--Campo de texto para ingresar el telefono-->
+        </div>
+        <div class="form-group"> <!--Etiqueta para el grupo de elementos del formulario-->
+            <label for="No DPI" id="label">No. de DPI</label> <!--Etiqueta para el numero de DPI-->
+            <input type="number" id="input" name="number" placeholder="No. de DPI" required> <!--Campo de texto para ingresar el numero de DPI-->
+        </div>
+        <div class="form-group"> <!--Etiqueta para el grupo de elementos del formulario-->
+            <label for="Genero" id="label">¿Cual es el Genero de tu mascota?</label> <!--Etiqueta para el genero de la mascota-->
+            <input type="text" id="input" name="Genero" placeholder="Genero de tu mascota" required> <!--Campo de texto para ingresar el genero de la mascota-->
+        </div>
+        <div class="form-group"> <!--Etiqueta para el grupo de elementos del formulario-->
+            <label for="Raza" id="label">¿Cual es la raza de tu mascota?</label> <!--Etiqueta para la raza de la mascota-->
+            <input type="text" id="input" name="Raza" placeholder="Raza de tu mascota" required>  
+        </div>
+        <div class="form-group">  <!--Etiqueta para el grupo de elementos del formulario-->
+            <label for="Raza" id="label">¿Cual es la especie de tu mascota?</label>  <!--Etiqueta para la especie de la mascota-->
+            <input type="text" id="input" name="Raza" placeholder="Especie de tu mascota" required> <!--Campo de texto para ingresar la especie de la mascota-->
+        </div>
+        <div class="form-group"> <!--Etiqueta para el grupo de elementos del formulario-->
+            <label for="mensaje" id="label">¿Cual es el motivo de tu consulta?</label> <!--Etiqueta para el motivo de la consulta-->
+            <textarea id="input" name="mensaje" rows="4" placeholder="Escribe el motivo de tu consulta..." required></textarea> <!--Campo de texto para ingresar el motivo de la consulta-->
+        </div>
+        <button type="submit" id="boton">Enviar</button> <!--Boton para enviar el formulario-->
+    </form>
+</section>
+
+
+<section class="contenedor1"> <!--Etiqueta de seccion que contiene una descripcion de los servicios-->
+<h1 id="titulomayor1">Servicios</h1> <!--Titulo de los servicios-->
+<ul class="servicios"> <!--Etiqueta para la lista de servicios-->
+<li> <!--Etiqueta para cada uno de los elementos de la lista de servicios-->
+    <img src="/imagenes/documento.jpg" alt="consulta"> <!--Imagen de servicio de consulta medica-->
+    Consulta Medica
+</li>
+<li>
+    <img src="/imagenes/corazon.jpg" alt="diagnostico"> <!--Imagen del servicio de Diagnostico-->
+   <strong>Diagnostico</strong>
+</li>
+<li>
+    <img src="/imagenes/estuche.jpg" alt="Medicinas"> <!--Imagen del servicio de Medicina-->
+    <strong>Medicina</strong>
+</li>
+<li>
+    <img src="/imagenes/linea.jpg" alt="Chequeo"> <!--Imagen del servicio de Chequeo-->
+    <strong>Chequeo</strong>
+</li>
+<li>
+    <img src="/imagenes/inyeccion.jpg" alt="Tratamiento"> <!--Imagen del servicio de Tratamiento-->
+    <strong>Tratamiento</strong>
+</li>
+<li>
+    <img src="/imagenes/casa.jpg" alt="Refugio"> <!--Imagen del servicio de Refugio-->
+    <strong>Refugio</strong>
+</li>
+<li>
+    <img src="/imagenes/perro.jpg" alt="Atencion"> <!--Imagen del servicio de Atencion a Domicilio-->
+    <strong>Atención a Domicilio</strong>
+</li>
+<li>
+    <img src="/imagenes/clinicas-veterinarias-apoyo.png" alt="Adopta"> <!--Imagen del servicio de Adopcion-->
+    <strong>Adopcion</strong>
+</li>
+</ul>
+<div class="clearfix"></div> <!--Contenedor con el identificador Clearfix es utilizado para borrar elementos secundarios flotantes de su elemento padre-->
+</section>
+<section>
+    <h1 id="titulomayor">Tenemos el mejor equipo de trabajo y la mejor atención</h1> <!--Titulo-->
+    <h2 id="titulomayor">"Cuidemos a los que cuidan de nuestra alma"</h2> <!--Parrafo-->
+</section>
+
+<footer> <!--Pie de pagina-->
+    <p>Veterinaria Chow-Chow</p> <!--Nombre de la veterinaria-->
+    <p>Telefono: 1234567890</p> <!--Numero de telefono de la veterinaria-->
+    <p>Correo:  vetChowchow123@gmail.com</p> <!--Correo Electronico-->
+    <p>Dirección: Calle 123, Colonia Chow-Chow, Ciudad de Guatemala</p>  <!--Direccion de la veterinaria-->
+    <p>Horario: Lunes a Viernes de 9:00 a 18:00 hrs</p> <!--Horario de atencion-->
+    <p>Sabados de 9:00 a 14:00 hrs</p> <!--Horario de atencion para dias sabados-->
+    <p>© 2025 Veterinaria Chow-Chow</p> <!--Copyright de la veterinaria-->
+    <section id="contactanos"> <!--Etiqueta de seccion con el identificador contactanos-->
+        <div class="contenedor1"> 
+            <h2>Contáctanos</h2>
+            <p>Síguenos en nuestras redes sociales:</p>   <!--Parrafo-->
+            <ul class="ul"> <!-- Lista de redes sociales -->
+                <li class="li">  <!--Etiqueta para cada uno de los elementos de las redes sociales-->
+                    <img src="/imagenes/facebook.png"  class="icono" >   <!--Icono de Facebook-->
+                    <a href="https://www.facebook.com" target="_blank">Facebook</a> <!--Enlace de Facebook-->
+                </li>
+                <li class="li"> 
+                    <img src="/imagenes/instagram.png"  class="icono" >  <!--Icono de Instagram-->
+                    <a href="https://www.instagram.com" target="_blank">Instagram</a> <!--Enlace de Instagram-->
+                </li> 
+                <li class="li">
+                    <img src="/imagenes/x.png"  class="icono" > <!--Icono de X-->
+                    <a href="https://www.x.com" target="_blank">X</a> <!--Enlace de X-->
+                </li>      
+                <li class="li">
+                    <img src="/imagenes/WhatsApp.svg.webp"  class="icono" >  <!--Icono de Whatsapp-->
+                    <a href="https://web.whatsapp.com" target="_blank">Whatsapp</a> <!--Enlace de Whatsapp-->
+                </li>          
+                <li class="li">
+                    <img src="/imagenes/youtube-logo-youtube-icon-transparent-free-png.webp"  class="icono" > <!--Icono de Youtube-->
+                    <a href="https://www.youtube.com/watch?v=MdP_9GOROhU&list=PLxj41QajMSg-5Dky8ixsc26_N11n5AHp8" target="_blank" class="a">Youtube</a> <!--Enlace de Youtube-->
+                </li>            
+            </ul>        
+        </div>
+    </section>
+   
+</footer>
+</body>
+</html>

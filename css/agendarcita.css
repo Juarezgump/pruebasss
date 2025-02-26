@@ -1,0 +1,234 @@
+body{
+    background-image: url(/imagenes/fondo1.jpg); /*Imagen de fondo*/
+    background-position: center; /*Posición de la imagen de fondo*/
+    background-size: auto; /*Tamaño de la imagen de fondo*/
+    background-color: rgb(236, 210, 210); /*Color de fondo*/
+    background-repeat: no-repeat; /*No se repite la imagen de fondo*/
+    background-attachment: fixed; /*Fondo fijo*/
+}
+
+*{
+    margin: 0; /*Margen de 0*/
+    padding: 0; /*Padding de 0*/
+    font-family: Arial, Helvetica, sans-serif; /*Tipo de letra*/
+    text-align: center; /*Texto centrado*/
+}
+
+#imagen{
+    width: 100%; /*Ancho del contenedor*/
+    height: 100%; /*Altura del contenedor*/
+    background-image: url(/imagenes/perrito.avif); /*Imagen de fondo*/
+    background-size: auto; /*Tamaño de la imagen de fondo*/
+    background-color: rgb(236, 210, 210); /*Color de fondo*/
+    background-position: center; /*Posición de la imagen de fondo*/
+    background-repeat: no-repeat; /*No se repite la imagen de fondo*/
+    position: absolute; /*Posición absoluta*/
+    z-index: -1; /*Posición en el eje z*/
+    opacity: 0.5; /*Opacidad del contenedor*/
+}
+
+#imagen{
+    width: 100%; /*Ancho del contenedor*/
+    height: 100%; /*Altura del contenedor*/
+    margin-top: 200px; /*Margen superior*/
+    margin-left: -350px; /*Margen izquierdo*/
+    background-repeat: no-repeat; /*No se repite la imagen de fondo*/
+    position: absolute; /*Posición absoluta*/
+    opacity: 0.8; /*Opacidad del contenedor*/
+   }
+
+.perrito {
+    width: 525px; /*Ancho del contenedor*/
+    height: 450px; /*Altura del contenedor*/
+    
+}
+
+form {
+
+    background: rgba(150, 79, 79, 0.5); /*Color de fondo*/
+    padding: 40px 0; /*Padding del contenedor*/
+    margin-top: 75px; /*Margen superior*/
+    margin-left: 500px; /*Margen izquierdo*/
+    border-radius: 100px 0 100px 0; /*Bordes redondeados*/
+    text-align: center; /*Texto centrado*/
+    max-width: 550px; /*Ancho máximo del contenedor*/
+    box-shadow: 0 5px 10px -5px rgba(0, 0, 0 /30); /*Sombra del contenedor*/
+
+}
+form h1{
+    font-size: 50px;    /*Tamaño de letra*/
+    color: rgb(13, 3, 3); /*Color de letra*/
+    text-shadow: 10px 10px 10px black; /*Sombra del texto*/
+    text-align: center; /*Texto centrado*/
+}
+form .form-group{
+    width: 100%; /*Ancho del contenedor*/
+    color: #a87878; /*Color de letra*/
+    background: none; /*Color de fondo*/
+    font-size: 1rem; /*Tamaño de letra*/
+    padding: 10px 0; /*Padding del contenedor*/
+    margin: 10px 0; /*Margen del contenedor*/
+    border-bottom: 2px solid #333; /*Estilo del borde*/
+    color: #333; /*Color de letra*/
+    text-align: center;   /*Texto centrado*/
+}
+
+#label {
+    font-size: 18px; /*Tamaño de letra*/
+    color: rgb(2, 2, 2); /*Color de letra*/
+    display: block; /*Ocupa el ancho disponible*/
+    margin-bottom: 3px; /*Crea un pequeño espacio entre el texto y el siguiente elemento*/
+  }
+  
+  #input {
+    width: 90%; /*El ancho del cuadro*/
+    padding: 10px; /*Margen alrededor del texto*/
+    border: 3px solid rgb(238, 218, 218); /*Estilo del borde*/
+    border-radius: 4px; /* Bordes redondeados */
+    font-size: 1rem; /* Tamaño de fuente estándar */
+    box-sizing: border-box; /* Asegura que el padding no afecte el ancho */
+  }
+  
+#boton {
+    background-color: #AA60C8; /*Color de fondo*/
+    color: rgba(109, 65, 117, 0.5); /*Color de letra*/
+    padding: 10px 20px; /*Margen interior del botón*/
+    border-radius: 5px; /*Bordes redondeados*/
+    font-size: 15px; /*Tamaño de letra*/
+    cursor: pointer; /*Cursor de la mano*/
+    transition: all 1s; /*Transición de 1 segundo*/
+    color: #b7bb2d; /*Color de letra*/
+}
+
+header {
+    width: 100%; /*Ancho del contenedor*/
+    background-color: #dd254d; /*Color de fondo*/
+    height: 100px; /*Altura del contenedor*/
+    display: block; /*Muestra el contenedor como bloque*/
+} 
+
+.clearfix {
+    clear: both; /*Limpiar todo*/
+    float: none; /*Ninguna flotacion*/
+}
+
+#titulomayor1{
+    margin: 50px 0 0 0;  /*Margen del contenedor*/  
+    font-size: 30px; /*Tamaño de letra*/
+    font-style: italic; /*Estilo de letra*/
+    color: rgb(7, 5, 5); /*Color de letra*/
+    font-weight: bolder; /*Grosor de letra*/
+    text-shadow: 10px 10px 10px black; /*Sombra del texto*/
+}
+
+header img{
+    float: left; /*Flotar a la izquierda*/
+    height: 80px; /*Altura del contenedor*/
+    width: auto; /*Ancho del contenedor*/
+    display: block; /*Muestra el contenedor como bloque*/
+}
+
+nav {
+    float: inherit; /*Flotar a la izquierda*/
+}
+
+nav a {
+    padding: 10px 20px; /*Margen interior del botón*/
+    color: azure; /*Color de letra*/
+    text-decoration: none; /*Sin decoración de texto*/
+    line-height: 60px; /*Altura de línea*/
+    font-weight: bold; /*Grosor de letra*/
+    border-radius: 5px; /*Bordes redondeados*/
+    transition: all 1s; /*Transición de 1 segundo*/
+}
+
+nav a:hover{
+    background-color: azure; /*Color de fondo*/
+    color: #F7CFD8; /*Color de letra*/
+}
+
+.descripcionVet{
+    width: 100%; /*Ancho del contenedor*/
+    font-size: 40px; /*Tamaño de letra*/
+    background: rgb(238, 238, 238, 0.5); /*Color de fondo*/
+    padding: 100px 0; /*Padding del contenedor*/
+    text-align: center; /*Texto centrado*/
+    border-radius: 100px 0 100px 0; /*Bordes redondeados*/
+}
+
+.servicios{
+    width: 980px; /*Ancho del contenedor*/
+    list-style: none; /*Sin estilo de lista*/
+    margin: 0 auto;     /*Margen del contenedor*/
+}
+
+.servicios li{
+    float: left; /*Flotar a la izquierda*/
+    width: 200px; /*Ancho del contenedor*/
+    height: 200px; /*Altura del contenedor*/
+    text-align: center; /*Texto centrado*/
+    background-color: #A6F1E0; /*Color de fondo*/
+    color: white; /*Color de letra*/
+    margin: 20px; /*Margen del contenedor*/
+    border-radius: 5px; /*Bordes redondeados*/
+}
+
+.servicios li img{
+    height: 70px; /*Altura del contenedor*/
+    width: auto; /*Ancho del contenedor*/
+    margin: 20px auto; /*Margen del contenedor*/
+    display: block; /*Muestra el contenedor como bloque*/
+}
+#titulomayor{
+    margin: 50px 0 0 0;     /*Margen del contenedor*/
+    font-size: 30px; /*Tamaño de letra*/
+    font-style: italic; /*Estilo de letra*/
+    color: white; /*Color de letra*/
+    font-weight: bolder;    /*Grosor de letra*/
+    text-shadow: 10px 10px 10px black; /*Sombra del texto*/
+}
+
+footer{
+    width: 100%; /*Ancho del contenedor*/
+    background: rgb(238, 238, 238, 0.5); /*Color de fondo*/
+    padding: 40px 0; /*Padding del contenedor*/
+    text-align: center; /*Texto centrado*/
+    font-size: x-large; /*Tamaño de letra*/
+}
+
+
+.ul {
+    display: flex;  /*Muestra el contenedor como flex*/
+    justify-content: center;   /*Centra el contenido*/
+    gap: 20px; /*Espacio entre los elementos*/
+    margin: 0; /*Margen de 0*/
+    padding: 0; /*Padding de 0*/
+    list-style: none;   /*Sin estilo de lista*/
+}
+
+.li {
+    display: flex; /*Muestra el contenedor como flex*/
+    align-items: center; /*Alinea los elementos*/
+}
+
+.icono {
+    width: 50px; /*Ancho del contenedor*/
+    height: 50px; /*Altura del contenedor*/
+    object-fit: contain; /*Ajusta el tamaño del contenedor*/
+}
+
+a {
+    text-decoration: none; /*Sin decoración de texto*/
+    font-size: 18px; /*Tamaño de letra*/
+    color: #080303; /*Color de letra*/
+    font-weight: bold;      /*Grosor de letra*/
+}
+
+.contenedor1 {
+    display:flex; /*Muestra el contenedor como flex*/
+    flex-direction: column; /*Dirección de la columna*/
+    text-align: center; /*Texto centrado*/
+    margin: 0; /*Margen de 0*/
+    padding: 0; /*Padding de 0*/
+}
+

@@ -1,0 +1,228 @@
+body{
+    background-image: url(/imagenes/fondo1.jpg); /*Imagen de fondo*/
+    background-position: center; /*Posición de la imagen de fondo*/
+    background-size: auto; /*Tamaño de la imagen de fondo*/
+    background-color: rgb(236, 210, 210); /*Color de fondo*/
+    background-repeat: no-repeat; /*No se repite la imagen de fondo*/
+    background-attachment: fixed; /*Fondo fijo*/
+}
+
+*{
+    margin: 0; /*Margen de 0*/
+    padding: 0; /*Padding de 0*/
+    font-family: Arial, Helvetica, sans-serif; /*Tipo de letra*/
+    text-align: center;     /*Texto centrado*/
+}
+
+
+header {
+    width: 100%; /*Ancho del contenedor*/
+    background-color: #dd254d; /*Color de fondo*/
+    height: 100px; /*Altura del contenedor*/
+    display: block; /*Bloque de visualización*/
+    
+} 
+
+.contenedor1{
+width: 1200px; /*Ancho del contenedor*/
+margin: 0 auto;     /*Margen de 0 y centrado*/
+padding: 20px 0; /*Padding del contenedor*/
+}
+
+.titulo1{
+    font-size: 50px;   /*Tamaño de letra*/
+    color: rgb(13, 3, 3);  /*Color de letra*/
+    text-shadow: 10px 10px 10px black; /*Sombra del texto*/
+}
+
+
+.clearfix {
+    clear: both; /*Limpiar ambos*/
+    float: none; /*No flotar*/
+}
+
+header img{
+    float: left; /*Flotar a la izquierda*/
+    height: 80px; /*Altura del contenedor*/
+    width: auto; /*Ancho automático*/
+    display: block; /*Bloque de visualización*/
+}
+
+
+nav {
+    float: inherit; /*Flotar a la derecha*/
+}
+
+nav a {
+    padding: 10px 20px; /*Padding del contenedor*/
+    color: azure; /*Color de letra*/
+    text-decoration: none; /*Sin decoración de texto*/
+    line-height: 60px; /*Altura de línea*/
+    font-weight: bold; /*Grosor de letra*/
+    border-radius: 5px; /*Bordes redondeados*/
+    transition: all 1s; /*Transición de 1 segundo*/
+}
+
+nav a:hover{
+    background-color: azure; /*Color de fondo*/
+    color: #F7CFD8; /*Color de letra*/
+}
+
+#imghistoria img{
+    width: 520px; /*Ancho de la imagen*/
+    height: 360px; /*Altura de la imagen*/
+    background-image: url(/imagenes/historia.jpg); /*Imagen de fondo*/
+    background-size: cover; /*Tamaño de la imagen de fondo*/
+    background-position: center; /*Posición de la imagen de fondo*/
+    background-attachment: fixed; /*Fondo fijo*/
+    margin: 0; /*Margen de 0*/
+    padding: 0; /*Padding de 0*/
+    box-shadow: 10px 10px 10px rgb(148, 36, 36); /*Sombra de la caja*/
+}
+
+.descripcionVet{
+    width: 100%;  /*Ancho del contenedor*/
+    font-size: 40px; /*Tamaño de letra*/
+    background: rgb(238, 238, 238, 0.5); /*Color de fondo*/
+    padding: 100px 0; /*Padding del contenedor*/
+    text-align: center; /*Texto centrado*/
+    border-radius: 100px 0 100px 0; /*Bordes redondeados*/
+}
+
+.descripcionVet h1{
+    line-height: 70px; /*Altura de línea*/
+}
+.descripcionVet h3{
+    line-height: 50px; /*Altura de línea*/
+}
+
+.descripcionVet p{
+    line-height: 40px; /*Altura de línea*/
+    font-size: 30px; /*Tamaño de letra*/
+     
+}
+
+.servicios{
+    width: 980px; /*Ancho del contenedor*/
+    list-style: none; /*Sin estilo de lista*/
+    margin: 0 auto;    /*Margen del contenedor*/
+}
+
+.servicios li{
+    float: left; /*Flotar a la izquierda*/
+    width: 420px; /*Ancho del contenedor*/
+    height: 360px; /*Altura del contenedor*/
+    text-align: center; /*Texto centrado*/
+    background-color: #B7B1F2; /*Color de fondo*/
+    color: white; /*Color de letra*/
+    font-size: 20px; /*Tamaño de letra*/
+    margin: 20px; /*Margen del contenedor*/
+    border-radius: 5px; /*Bordes redondeados*/
+}
+
+.servicios li img{
+    height: 230px; /*Altura del contenedor*/
+    width: 360px; /*Ancho del contenedor*/
+    margin: 20px auto; /*Margen del contenedor*/
+    display: block; /*Muestra el contenedor como bloque*/
+}
+
+.servicios1{
+    width: 980px; /*Ancho del contenedor*/
+    list-style: none; /*Sin estilo de lista*/
+    margin: 0 auto;   /*Margen del contenedor*/
+    margin-left: 500px; /*Margen izquierdo de 500px*/
+}
+
+.servicios1 #nuestra{
+    float: left; /*Flotar a la izquierda*/
+    width: 420px; /*Ancho del contenedor*/
+    height: 540px;    /*Altura del contenedor*/
+    text-align: center;  /*Texto centrado*/
+    background-color: #B7B1F2; /*Color de fondo*/
+    color: white; /*Color de letra*/
+    font-size: 20px; /*Tamaño de letra*/
+    margin: 20px; /*Margen del contenedor*/
+    border-radius: 5px; /*Bordes redondeados*/
+}
+
+.servicios1 #nuestra img{ 
+    height: 420px; /*Altura del contenedor*/
+    width: 325px; /*Ancho del contenedor*/
+    margin: 20px auto; /*Margen del contenedor*/
+    display: block; /*Muestra el contenedor como bloque*/
+}
+
+
+#titulomayor1{
+    margin: 50px 0 0 0; /*Margen del contenedor*/
+    font-size: 50px; /*Tamaño de letra*/
+    font-style: italic; /*Estilo de letra*/
+    color: rgb(7, 5, 5); /*Color de letra*/
+    font-weight: bolder; /*Grosor de letra*/
+    text-shadow: 10px 10px 10px black; /*Sombra del texto*/
+}
+
+#titulomayor{
+    margin: 50px 0 0 0; /*Margen del contenedor*/
+    font-size: 50px; /*Tamaño de letra*/
+    font-style: italic; /*Estilo de letra*/
+    color: white; /*Color de letra*/
+    font-weight: bolder; /*Grosor de letra*/
+    text-shadow: 10px 10px 10px black; /*Sombra del texto*/
+}
+
+
+#des-veti {
+    margin: 50px 0 0 0; /*Margen del contenedor*/
+    font-size: 20px; /*Tamaño de letra*/
+    font-weight: bolder;    /*Grosor de letra*/
+    width: 100%; /*Ancho del contenedor*/
+    background: rgb(238, 238, 238, 0.5); /*Color de fondo*/
+    padding: 40px 0; /*Padding del contenedor*/
+}
+
+footer{
+    width: 100%; /*Ancho del contenedor*/
+    background: rgb(238, 238, 238, 0.5);  /*Color de fondo*/
+    padding: 40px 0;    /*Padding del contenedor*/
+    text-align: center; /*Texto centrado*/
+    font-size: x-large; /*Tamaño de letra*/
+}
+
+.ul {
+    display: flex;  /*Muestra el contenedor como flex*/
+    justify-content: center;  /*Centra el contenido*/
+    gap: 20px; /*Espacio entre los elementos*/
+    margin: 0; /*Margen de 0*/
+    padding: 0; /*Padding de 0*/
+    list-style: none;  /*Sin estilo de lista*/
+}
+
+.li {
+    display: flex; /*Muestra el contenedor como flex*/
+    align-items: center; /*Alinea los elementos*/
+}
+
+.icono {
+    width: 50px; /*Ancho del contenedor*/
+    height: 50px; /*Altura del contenedor*/
+    object-fit: contain; /*Ajusta el tamaño del contenedor*/
+}
+
+a {
+    text-decoration: none; /*Sin decoración de texto*/
+    font-size: 18px;    /*Tamaño de letra*/
+    color: #080303; /*Color de letra*/
+    font-weight: bold; /*Grosor de letra*/
+}
+
+.contenedor12 {
+    display:flex; /*Muestra el contenedor como flex*/
+    flex-direction: column; /*Dirección de la columna*/
+    text-align: center; /*Texto centrado*/
+    margin: 0; /*Margen de 0*/
+    padding: 0; /*Padding de 0*/
+}
+
+
